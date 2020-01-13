@@ -1,0 +1,26 @@
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &__side-nav-container {
+    flex: 1;
+  }
+
+  &__side-nav {
+    width: 300px;
+  }
+
+  &__page-title {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-item.active {
+    background: rgba(0,0,0,.04);
+  }
+}
